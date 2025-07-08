@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dehu_notification,dehu.notification,model_dehu_notification,base.group_user,1,1,1,1
+access_dehu_configuration,dehu.configuration,model_dehu_configuration,base.group_user,1,1,1,1
+access_dehu_notification_attachment,dehu.notification.attachment,model_dehu_notification_attachment,base.group_user,1,1,1,1
