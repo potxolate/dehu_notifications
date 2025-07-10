@@ -9,6 +9,7 @@
         'views/dehu_notification_views.xml',
         'views/dehu_configuration_views.xml',
         'security/ir.model.access.csv',
+        'data/dehu_data.xml'
     ],
     'installable': True,
     'application': True,
