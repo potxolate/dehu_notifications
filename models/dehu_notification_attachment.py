@@ -1,5 +1,8 @@
-from odoo import models, fields
+"""Modelo para la gestión de anexos de notificaciones DEHú."""
+
 import logging
+
+from odoo import fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -16,10 +19,7 @@ class DehuNotificationAttachment(models.Model):
 
     name = fields.Char("Nombre", required=True)
     notification_id = fields.Many2one(
-        "dehu.notification",
-        string="Notificación",
-        required=True,
-        ondelete="cascade"
+        "dehu.notification", string="Notificación", required=True, ondelete="cascade"
     )
     content = fields.Binary("Contenido", readonly=True)
     mimetype = fields.Char("Tipo MIME", readonly=True)

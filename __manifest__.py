@@ -1,3 +1,5 @@
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+
 {
     "name": "DEHU Notifications",
     "version": "1.0.0",
@@ -6,7 +8,7 @@
     "description": """
         Módulo para gestionar notificaciones del sistema DEHú
         (Dirección Electrónica Habilitada Única) del Gobierno de España.
-        
+
         Características:
         - Recepción automática de notificaciones
         - Gestión de documentos y anexos
@@ -25,4 +27,4 @@
     "installable": True,
     "application": True,
     "auto_install": False,
-} 
+}

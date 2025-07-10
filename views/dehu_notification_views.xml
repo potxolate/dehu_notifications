@@ -4,12 +4,16 @@
         <field name="name">dehu.notification.tree</field>
         <field name="model">dehu.notification</field>
         <field name="arch" type="xml">
-            <list decoration-info="status == 'pending'" decoration-success="status == 'accepted'" decoration-danger="status == 'rejected'">
-                <field name="available_date"/>
-                <field name="subject"/>
-                <field name="notification_type"/>
-                <field name="status"/>
-                <field name="issuer_entity"/>
+            <list
+        decoration-info="status == 'pending'"
+        decoration-success="status == 'accepted'"
+        decoration-danger="status == 'rejected'"
+      >
+                <field name="available_date" />
+                <field name="subject" />
+                <field name="notification_type" />
+                <field name="status" />
+                <field name="issuer_entity" />
             </list>
         </field>
     </record>
@@ -22,31 +26,39 @@
                 <header>
                     <!-- <button name="process_notification" type="object" string="Aceptar notificación" class="oe_highlight" attrs="{'invisible': [('status', '!=', 'pending')]}"/> -->
                     <!-- <button name="download_receipt" type="object" string="Descargar acuse" attrs="{'invisible': [('status', '!=', 'accepted')]}"/> -->
-                    <field name="status" widget="statusbar" statusbar_colors="{'pending': 'blue', 'accepted': 'green', 'rejected': 'red'}"/>
+                    <field
+            name="status"
+            widget="statusbar"
+            statusbar_colors="{'pending': 'blue', 'accepted': 'green', 'rejected': 'red'}"
+          />
                 </header>
                 <sheet>
                     <group>
                         <group>
-                            <field name="subject"/>
-                            <field name="description"/>
-                            <field name="notification_type"/>
-                            <field name="status"/>
-                            <field name="available_date"/>
+                            <field name="subject" />
+                            <field name="description" />
+                            <field name="notification_type" />
+                            <field name="status" />
+                            <field name="available_date" />
                         </group>
                         <group>
-                            <field name="issuer_entity"/>
-                            <field name="issuer_root_entity"/>
-                            <field name="holder_name"/>
-                            <field name="holder_nif"/>
+                            <field name="issuer_entity" />
+                            <field name="issuer_root_entity" />
+                            <field name="holder_name" />
+                            <field name="holder_nif" />
                         </group>
                     </group>
-                    
+
                     <notebook>
                         <page string="Documento">
                             <group>
-                                <field name="document_name"/>
-                                <field name="document_mimetype"/>
-                                <field name="document_content" filename="document_name" readonly="1"/>
+                                <field name="document_name" />
+                                <field name="document_mimetype" />
+                                <field
+                  name="document_content"
+                  filename="document_name"
+                  readonly="1"
+                />
                             </group>
                         </page>
                         <!-- <page string="Anexos" attrs="{'invisible': [('has_attachments', '=', False)]}">
@@ -58,8 +70,8 @@
                             </field>
                         </page> -->
                         <page string="Relaciones">
-                            <field name="partner_id"/>
-                            <field name="related_document"/>
+                            <field name="partner_id" />
+                            <field name="related_document" />
                         </page>
                     </notebook>
                 </sheet>
@@ -73,8 +85,13 @@
         <field name="view_mode">list,form</field>
     </record>
 
-    <menuitem id="menu_dehu_root" name="DEHU"/>
-    <menuitem id="menu_dehu_notifications" name="Notificaciones" parent="menu_dehu_root" action="action_dehu_notifications"/>
+    <menuitem id="menu_dehu_root" name="DEHU" />
+    <menuitem
+    id="menu_dehu_notifications"
+    name="Notificaciones"
+    parent="menu_dehu_root"
+    action="action_dehu_notifications"
+  />
 
 
-</odoo> 
+</odoo>

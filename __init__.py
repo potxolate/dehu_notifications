@@ -1,2 +1,3 @@
-from . import models
-from . import controllers 
+"""Módulo de inicialización para DEHU Notifications."""
+
+from . import controllers, models

@@ -1,5 +1,8 @@
-from odoo import models, fields, api
+"""Modelo para la gestión de notificaciones DEHú."""
+
 import logging
+
+from odoo import api, fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -19,29 +22,28 @@ class DehuNotification(models.Model):
     dehu_id = fields.Char("ID DEHú", readonly=True)
     origin_code = fields.Integer("Código Origen", readonly=True)
     notification_key = fields.Char(
-        "Clave única",
-        compute="_compute_notification_key",
-        store=True
+        "Clave única", compute="_compute_notification_key", store=True
     )
 
     # Campos de metadatos
     subject = fields.Char("Asunto", readonly=True)
     description = fields.Text("Descripción", readonly=True)
-    notification_type = fields.Selection([
-        ("1", "Comunicación"),
-        ("2", "Notificación")
-    ], string="Tipo", readonly=True)
-    available_date = fields.Datetime(
-        "Fecha puesta a disposición",
-        readonly=True
+    notification_type = fields.Selection(
+        [("1", "Comunicación"), ("2", "Notificación")], string="Tipo", readonly=True
     )
-    status = fields.Selection([
-        ("pending", "Pendiente"),
-        ("accepted", "Aceptada"),
-        ("rejected", "Rechazada"),
-        ("expired", "Caducada"),
-        ("read", "Leída")
-    ], string="Estado", default="pending", readonly=True)
+    available_date = fields.Datetime("Fecha puesta a disposición", readonly=True)
+    status = fields.Selection(
+        [
+            ("pending", "Pendiente"),
+            ("accepted", "Aceptada"),
+            ("rejected", "Rechazada"),
+            ("expired", "Caducada"),
+            ("read", "Leída"),
+        ],
+        string="Estado",
+        default="pending",
+        readonly=True,
+    )
 
     # Campos de relación
     issuer_entity = fields.Char("Organismo emisor", readonly=True)
@@ -60,14 +62,9 @@ class DehuNotification(models.Model):
     document_metadata = fields.Text("Metadatos documento")
 
     # Campos de anexos
-    has_attachments = fields.Boolean(
-        "Tiene anexos",
-        compute="_compute_has_attachments"
-    )
+    has_attachments = fields.Boolean("Tiene anexos", compute="_compute_has_attachments")
     attachment_ids = fields.One2many(
-        "dehu.notification.attachment",
-        "notification_id",
-        string="Anexos"
+        "dehu.notification.attachment", "notification_id", string="Anexos"
     )
 
     # Campos de acuse
@@ -77,8 +74,7 @@ class DehuNotification(models.Model):
     # Campos de relación con Odoo
     partner_id = fields.Many2one("res.partner", string="Contacto relacionado")
     related_document = fields.Reference(
-        selection=[("res.partner", "Contacto")],
-        string="Documento relacionado"
+        selection=[("res.partner", "Contacto")], string="Documento relacionado"
     )
 
     @api.depends("dehu_id", "origin_code")
@@ -94,4 +90,4 @@ class DehuNotification(models.Model):
     def _compute_has_attachments(self):
         """Determina si la notificación tiene anexos."""
         for record in self:
-            record.has_attachments = bool(record.attachment_ids) 
+            record.has_attachments = bool(record.attachment_ids)
