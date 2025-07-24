@@ -41,14 +41,14 @@
 
     <!-- Acciones -->
     <record id="action_dehu_configuration" model="ir.actions.act_window">
-        <field name="name">Configuración DEHú</field>
+        <field name="name">DEHU Configuration</field>
         <field name="res_model">dehu.configuration</field>
         <field name="view_mode">list,form</field>
     </record>
 
     <menuitem
     id="menu_dehu_configuration"
-    name="Configuración"
+    name="Configuration"
     parent="menu_dehu_root"
     action="action_dehu_configuration"
   />

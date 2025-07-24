@@ -15,25 +15,25 @@ class DehuConfiguration(models.Model):
     """
 
     _name = "dehu.configuration"
-    _description = _("Configuración DEHú")
+    _description = _("DEHU Configuration")
 
-    name = fields.Char(_("Nombre"), required=True)
+    name = fields.Char(_("Name"), required=True)
     environment = fields.Selection(
         [
-            ("production", _("Producción")),
-            ("sandbox", _("Entorno de pruebas")),
+            ("production", _("Production")),
+            ("sandbox", _("Sandbox")),
         ],
-        string=_("Entorno"),
+        string=_("Environment"),
         default="sandbox",
     )
-    wsdl_url = fields.Char(_("URL WSDL"), compute="_compute_wsdl_url", store=True)
+    wsdl_url = fields.Char(_("WSDL URL"), compute="_compute_wsdl_url", store=True)
     api_key = fields.Char(_("API Key"), required=True)
-    certificate = fields.Binary(_("Certificado X.509"))
-    certificate_filename = fields.Char(_("Nombre del certificado"))
+    certificate = fields.Binary(_("X.509 Certificate"))
+    certificate_filename = fields.Char(_("Certificate Name"))
     company_id = fields.Many2one(
-        "res.company", string=_("Compañía"), default=lambda self: self.env.company
+        "res.company", string=_("Company"), default=lambda self: self.env.company
     )
-    active = fields.Boolean(_("Activo"), default=True)
+    active = fields.Boolean(_("Active"), default=True)
 
     @api.depends("environment")
     def _compute_wsdl_url(self):

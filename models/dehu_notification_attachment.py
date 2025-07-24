@@ -15,13 +15,13 @@ class DehuNotificationAttachment(models.Model):
     """
 
     _name = "dehu.notification.attachment"
-    _description = _("Anexo de notificación DEHú")
+    _description = _("DEHU Notification Attachment")
 
-    name = fields.Char(_("Nombre"), required=True)
+    name = fields.Char(_("Name"), required=True)
     notification_id = fields.Many2one(
-        "dehu.notification", string=_("Notificación"), required=True, ondelete="cascade"
+        "dehu.notification", string=_("Notification"), required=True, ondelete="cascade"
     )
-    content = fields.Binary(_("Contenido"), readonly=True)
-    mimetype = fields.Char(_("Tipo MIME"), readonly=True)
-    reference = fields.Char(_("Referencia"), readonly=True)
-    metadata = fields.Text(_("Metadatos"), readonly=True)
+    content = fields.Binary(_("Content"), readonly=True)
+    mimetype = fields.Char(_("MIME Type"), readonly=True)
+    reference = fields.Char(_("Reference"), readonly=True)
+    metadata = fields.Text(_("Metadata"), readonly=True)

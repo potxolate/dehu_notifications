@@ -80,7 +80,7 @@
     </record>
 
     <record id="action_dehu_notifications" model="ir.actions.act_window">
-        <field name="name">Notificaciones DEHU</field>
+        <field name="name">DEHU Notifications</field>
         <field name="res_model">dehu.notification</field>
         <field name="view_mode">list,form</field>
     </record>
@@ -88,7 +88,7 @@
     <menuitem id="menu_dehu_root" name="DEHU" />
     <menuitem
     id="menu_dehu_notifications"
-    name="Notificaciones"
+    name="Notifications"
     parent="menu_dehu_root"
     action="action_dehu_notifications"
   />
