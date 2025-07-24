@@ -2,7 +2,7 @@
 
 import logging
 
-from odoo import fields, models
+from odoo import _, fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -15,13 +15,13 @@ class DehuNotificationAttachment(models.Model):
     """
 
     _name = "dehu.notification.attachment"
-    _description = "Anexo de notificación DEHú"
+    _description = _("Anexo de notificación DEHú")
 
-    name = fields.Char("Nombre", required=True)
+    name = fields.Char(_("Nombre"), required=True)
     notification_id = fields.Many2one(
-        "dehu.notification", string="Notificación", required=True, ondelete="cascade"
+        "dehu.notification", string=_("Notificación"), required=True, ondelete="cascade"
     )
-    content = fields.Binary("Contenido", readonly=True)
-    mimetype = fields.Char("Tipo MIME", readonly=True)
-    reference = fields.Char("Referencia", readonly=True)
-    metadata = fields.Text("Metadatos", readonly=True)
+    content = fields.Binary(_("Contenido"), readonly=True)
+    mimetype = fields.Char(_("Tipo MIME"), readonly=True)
+    reference = fields.Char(_("Referencia"), readonly=True)
+    metadata = fields.Text(_("Metadatos"), readonly=True)

@@ -1,0 +1,310 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * dehu_notifications
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-24 00:00+0000\n"
+"PO-Revision-Date: 2024-07-24 00:00+0000\n"
+"Last-Translator: <tu_email@dominio.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__subject
+msgid "Asunto"
+msgstr "Asunto"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__status
+msgid "Estado"
+msgstr "Estado"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__description
+msgid "Descripción"
+msgstr "Descripción"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__available_date
+msgid "Fecha puesta a disposición"
+msgstr "Fecha puesta a disposición"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__notification_type
+msgid "Tipo"
+msgstr "Tipo"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__notification_type__1
+msgid "Comunicación"
+msgstr "Comunicación"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__notification_type__2
+msgid "Notificación"
+msgstr "Notificación"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__pending
+msgid "Pendiente"
+msgstr "Pendiente"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__accepted
+msgid "Aceptada"
+msgstr "Aceptada"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__rejected
+msgid "Rechazada"
+msgstr "Rechazada"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__expired
+msgid "Caducada"
+msgstr "Caducada"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__read
+msgid "Leída"
+msgstr "Leída"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__issuer_entity
+msgid "Organismo emisor"
+msgstr "Organismo emisor"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__issuer_root_entity
+msgid "Organismo emisor raíz"
+msgstr "Organismo emisor raíz"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__holder_nif
+msgid "NIF Titular"
+msgstr "NIF Titular"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__holder_name
+msgid "Nombre Titular"
+msgstr "Nombre Titular"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__recipient_nif
+msgid "NIF Destinatario"
+msgstr "NIF Destinatario"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__recipient_name
+msgid "Nombre Destinatario"
+msgstr "Nombre Destinatario"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_name
+msgid "Nombre documento"
+msgstr "Nombre documento"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_content
+msgid "Documento"
+msgstr "Documento"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_mimetype
+msgid "Tipo MIME documento"
+msgstr "Tipo MIME documento"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_hash
+msgid "Hash documento"
+msgstr "Hash documento"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_hash_algorithm
+msgid "Algoritmo hash"
+msgstr "Algoritmo hash"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_metadata
+msgid "Metadatos documento"
+msgstr "Metadatos documento"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__has_attachments
+msgid "Tiene anexos"
+msgstr "Tiene anexos"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__attachment_ids
+msgid "Anexos"
+msgstr "Anexos"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__receipt_reference
+msgid "Referencia acuse PDF"
+msgstr "Referencia acuse PDF"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__receipt_csv
+msgid "CSV acuse"
+msgstr "CSV acuse"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__partner_id
+msgid "Contacto relacionado"
+msgstr "Contacto relacionado"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__related_document
+msgid "Documento relacionado"
+msgstr "Documento relacionado"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__related_document__res_partner
+msgid "Contacto"
+msgstr "Contacto"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__dehu_id
+msgid "ID DEHú"
+msgstr "ID DEHú"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__origin_code
+msgid "Código Origen"
+msgstr "Código Origen"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__notification_key
+msgid "Clave única"
+msgstr "Clave única"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__name
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__content
+msgid "Contenido"
+msgstr "Contenido"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__mimetype
+msgid "Tipo MIME"
+msgstr "Tipo MIME"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__reference
+msgid "Referencia"
+msgstr "Referencia"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__metadata
+msgid "Metadatos"
+msgstr "Metadatos"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__name
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__environment
+msgid "Entorno"
+msgstr "Entorno"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_configuration__environment__production
+msgid "Producción"
+msgstr "Producción"
+
+#. module: dehu_notifications
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_configuration__environment__sandbox
+msgid "Entorno de pruebas"
+msgstr "Entorno de pruebas"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__wsdl_url
+msgid "URL WSDL"
+msgstr "URL WSDL"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__api_key
+msgid "API Key"
+msgstr "API Key"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__certificate
+msgid "Certificado X.509"
+msgstr "Certificado X.509"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__certificate_filename
+msgid "Nombre del certificado"
+msgstr "Nombre del certificado"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__company_id
+msgid "Compañía"
+msgstr "Compañía"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__active
+msgid "Activo"
+msgstr "Activo"
+
+#. module: dehu_notifications
+#: model:ir.model,name:dehu_notifications.model_dehu_notification
+msgid "Notificación DEHú"
+msgstr "Notificación DEHú"
+
+#. module: dehu_notifications
+#: model:ir.model,name:dehu_notifications.model_dehu_notification_attachment
+msgid "Anexo de notificación DEHú"
+msgstr "Anexo de notificación DEHú"
+
+#. module: dehu_notifications
+#: model:ir.model,name:dehu_notifications.model_dehu_configuration
+msgid "Configuración DEHú"
+msgstr "Configuración DEHú"
+
+#. module: dehu_notifications
+#: model_terms:ir.ui.view,arch_db:dehu_notifications.view_dehu_notification_form
+msgid "Relaciones"
+msgstr "Relaciones"
+
+#. module: dehu_notifications
+#: model_terms:ir.ui.view,arch_db:dehu_notifications.view_dehu_notification_form
+msgid "Documento"
+msgstr "Documento"
+
+#. module: dehu_notifications
+#: model_terms:ir.ui.view,arch_db:dehu_notifications.view_dehu_notification_form
+msgid "Notificaciones DEHU"
+msgstr "Notificaciones DEHU"
+
+#. module: dehu_notifications
+#: model:ir.ui.menu,name:dehu_notifications.menu_dehu_root
+msgid "DEHU"
+msgstr "DEHU"
+
+#. module: dehu_notifications
+#: model:ir.ui.menu,name:dehu_notifications.menu_dehu_notifications
+msgid "Notificaciones"
+msgstr "Notificaciones"
+
+#. module: dehu_notifications
+#: model:ir.ui.menu,name:dehu_notifications.menu_dehu_configuration
+msgid "Configuración"
+msgstr "Configuración"
+
+
+

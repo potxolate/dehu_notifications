@@ -1,0 +1,504 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dehu_notifications
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24 09:49+0000\n"
+"PO-Revision-Date: 2025-07-24 09:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__api_key
+msgid "API Key"
+msgstr "API Key"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__accepted
+msgid "Aceptada"
+msgstr "Accepted"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__active
+msgid "Activo"
+msgstr "Active"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_hash_algorithm
+msgid "Algoritmo hash"
+msgstr "Hash Algorithm"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model,name:dehu_notifications.model_dehu_notification_attachment
+msgid "Anexo de notificación DEHú"
+msgstr "DEHU Notification Attachment"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__attachment_ids
+msgid "Anexos"
+msgstr "Attachments"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__subject
+msgid "Asunto"
+msgstr "Subject"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__receipt_csv
+msgid "CSV acuse"
+msgstr "CSV Receipt"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__expired
+msgid "Caducada"
+msgstr "Expired"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__certificate
+msgid "Certificado X.509"
+msgstr "X.509 Certificate"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__notification_key
+msgid "Clave única"
+msgstr "Unique Key"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__company_id
+msgid "Compañía"
+msgstr "Company"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__notification_type__1
+msgid "Comunicación"
+msgstr "Communication"
+
+#. module: dehu_notifications
+#: model:ir.ui.menu,name:dehu_notifications.menu_dehu_configuration
+msgid "Configuración"
+msgstr "Configuration"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.actions.act_window,name:dehu_notifications.action_dehu_configuration
+#: model:ir.model,name:dehu_notifications.model_dehu_configuration
+msgid "Configuración DEHú"
+msgstr "DEHU Configuration"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__related_document__res_partner
+msgid "Contacto"
+msgstr "Contact"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__partner_id
+msgid "Contacto relacionado"
+msgstr "Related Contact"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__content
+msgid "Contenido"
+msgstr "Content"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__create_uid
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__create_uid
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__create_uid
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_synchronizer__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__create_date
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__create_date
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__create_date
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_synchronizer__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__origin_code
+msgid "Código Origen"
+msgstr "Origin Code"
+
+#. module: dehu_notifications
+#: model:ir.ui.menu,name:dehu_notifications.menu_dehu_root
+msgid "DEHU"
+msgstr "DEHU"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "DEHú error: %s - %s"
+msgstr "DEHU error: %s - %s"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__description
+msgid "Descripción"
+msgstr "Description"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__display_name
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__display_name
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__display_name
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_synchronizer__display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_content
+#: model_terms:ir.ui.view,arch_db:dehu_notifications.view_dehu_notification_form
+msgid "Documento"
+msgstr "Document"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__related_document
+msgid "Documento relacionado"
+msgstr "Related Document"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__environment
+msgid "Entorno"
+msgstr "Environment"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_configuration__environment__sandbox
+msgid "Entorno de pruebas"
+msgstr "Sandbox"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "Error creating DEHú client: %s"
+msgstr "Error creating DEHU client: %s"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "Error downloading receipt: %s"
+msgstr "Error downloading receipt: %s"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "Error fetching notifications: %s"
+msgstr "Error fetching notifications: %s"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "Error processing notification: %s"
+msgstr "Error processing notification: %s"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__status
+msgid "Estado"
+msgstr "Status"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__available_date
+msgid "Fecha puesta a disposición"
+msgstr "Available Date"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_hash
+msgid "Hash documento"
+msgstr "Document Hash"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__id
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__id
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__id
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_synchronizer__id
+msgid "ID"
+msgstr "ID"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__dehu_id
+msgid "ID DEHú"
+msgstr "DEHU ID"
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__write_uid
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__write_uid
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__write_uid
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_synchronizer__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: dehu_notifications
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__write_date
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__write_date
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__write_date
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_synchronizer__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__read
+msgid "Leída"
+msgstr "Read"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__metadata
+msgid "Metadatos"
+msgstr "Metadata"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_metadata
+msgid "Metadatos documento"
+msgstr "Document Metadata"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__recipient_nif
+msgid "NIF Destinatario"
+msgstr "Recipient NIF"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__holder_nif
+msgid "NIF Titular"
+msgstr "Holder NIF"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "No active DEHú configuration found"
+msgstr "No active DEHU configuration found"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_synchronizer.py:0
+msgid "No receipt CSV available for this notification"
+msgstr "No receipt CSV available for this notification"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__name
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__name
+msgid "Nombre"
+msgstr "Name"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__recipient_name
+msgid "Nombre Destinatario"
+msgstr "Recipient Name"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__holder_name
+msgid "Nombre Titular"
+msgstr "Holder Name"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__certificate_filename
+msgid "Nombre del certificado"
+msgstr "Certificate Name"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_name
+msgid "Nombre documento"
+msgstr "Document Name"
+
+#. module: dehu_notifications
+#: model:ir.ui.menu,name:dehu_notifications.menu_dehu_notifications
+msgid "Notificaciones"
+msgstr "Notifications"
+
+#. module: dehu_notifications
+#: model:ir.actions.act_window,name:dehu_notifications.action_dehu_notifications
+msgid "Notificaciones DEHU"
+msgstr "DEHU Notifications"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__notification_id
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__notification_type__2
+msgid "Notificación"
+msgstr "Notification"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model,name:dehu_notifications.model_dehu_notification
+msgid "Notificación DEHú"
+msgstr "DEHU Notification"
+
+#. module: dehu_notifications
+#: model:ir.actions.server,name:dehu_notifications.ir_cron_fetch_dehu_notifications_ir_actions_server
+msgid "Obtener notificaciones DEHú"
+msgstr "Fetch DEHU notifications"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__issuer_entity
+msgid "Organismo emisor"
+msgstr "Issuer Entity"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__issuer_root_entity
+msgid "Organismo emisor raíz"
+msgstr "Root Issuer Entity"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__pending
+msgid "Pendiente"
+msgstr "Pending"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_configuration__environment__production
+msgid "Producción"
+msgstr "Production"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields.selection,name:dehu_notifications.selection__dehu_notification__status__rejected
+msgid "Rechazada"
+msgstr "Rejected"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__reference
+msgid "Referencia"
+msgstr "Reference"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__receipt_reference
+msgid "Referencia acuse PDF"
+msgstr "PDF Receipt Reference"
+
+#. module: dehu_notifications
+#: model_terms:ir.ui.view,arch_db:dehu_notifications.view_dehu_notification_form
+msgid "Relaciones"
+msgstr "Relations"
+
+#. module: dehu_notifications
+#: model:ir.model,name:dehu_notifications.model_dehu_synchronizer
+msgid "Sincronizador con DEHú"
+msgstr "DEHU Synchronizer"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__has_attachments
+msgid "Tiene anexos"
+msgstr "Has Attachments"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__notification_type
+msgid "Tipo"
+msgstr "Type"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification_attachment.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification_attachment__mimetype
+msgid "Tipo MIME"
+msgstr "MIME Type"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_notification.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_notification__document_mimetype
+msgid "Tipo MIME documento"
+msgstr "Document MIME Type"
+
+#. module: dehu_notifications
+#. odoo-python
+#: code:addons/dehu_notifications/models/dehu_configuration.py:0
+#: model:ir.model.fields,field_description:dehu_notifications.field_dehu_configuration__wsdl_url
+msgid "URL WSDL"
+msgstr "WSDL URL"
