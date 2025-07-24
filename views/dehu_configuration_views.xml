@@ -48,8 +48,9 @@
 
     <menuitem
     id="menu_dehu_configuration"
-    name="Configuration"
+    name="DEHU Configuration"
     parent="menu_dehu_root"
     action="action_dehu_configuration"
   />
+
 </odoo>
